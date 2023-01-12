@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration</title>
+    <style>
+        #saveForm {
+  position: relative;
+  nav-down: -43px;
+  left: 80%;
+}
+    </style>
+</head>
+<!-- <body style="background-image: url('..//use2.jpg');"width="900%" height="900%" > -->
+<body style="background-image: url('../use3.png');"width="900%" height="900%">   
+    
+    <fieldset >
+        <form  name="form" id="form">
+        <h1 style="text-align: center;">REGISTRATION FORM</h1>
+
+        <div  style="display: flex;gap:25%;">
+            &nbsp;
+            <span>
+                <label for="fname">First name:</label><br>
+                <input type="text" id="fname" name="fname" value="John" readonly required><br>
+            </span>
+            <span >
+                <label for="lname">Last name:</label><br>
+                <input autofocus type="text" id="lname" name="lname"  required ><br>
+            </span>
+        </div><br><br>
+
+
+
+        <div  style="display: flex;gap:25%;">
+            &nbsp;
+            <span>
+                <label for="date">Date Of Birth:</label><br>
+                <input type="date" id="dob" name="dob" required><br>
+            </span>  
+            <span>
+                <label for="month">Registration Month</label><br>
+                <input autofocus type="month" id="month" name="month"  required ><br>
+            </span>
+        </div> <br><br>
+
+
+
+        <div  style="display: flex;gap:25%;">
+            &nbsp;   
+            <span>
+                <label for="password">Password:</label><br>
+                <input type="password" name="password" id="password" required/>
+            </span>  
+            <span>
+                <label for="password">Confirm Password</label><br>
+                <input type="password" name="confirm_password" id="confirm_password" required/><br>
+            </span>
+        </div><br><br>
+
+
+        <div  style="display: flex;gap:25%;">
+            &nbsp;   
+            <span>
+                <label for="Gender">Gender:</label><br>
+                <select name="Gender" id="Gender" required>
+                  <option value="0" selected disabled>--Gender--</option>
+                  <option value="Male">Male</option>
+                  <option value="Female">Female</option>
+                  <option value="Custom">Custom</option>
+                  <option value="RatherNotSay">Rather Not Say</option>
+                </select>
+            </span> 
+            <span>
+                <label for="Age">Age</label><br>
+                <input type="Age" name="Age" id="Age" placeholder="Enter Age" required/><br>
+            </span>
+        </div><br><br>
+
+        
+
+        <div  style="display: flex;gap:25%;">
+            &nbsp;  
+            <span>
+                <h4>Level</h4> 
+                <input type="radio" id="tertiary" name="level" value="tertiary">
+                  <label for="tertiary">Tertiary</label><br>
+                 <input type="radio" id="secondary" name="level" value="scondary">
+                 <label for="css">Secondary</label><br>
+                  <input type="radio" id="primary" name="level" value="primary">
+                  <label for="primary">Primary</label>
+            </span> 
+            <span>
+                <h4>Category</h4> 
+                <input type="checkbox" id="science" name="science" value="category">
+                <label for="science"> Science</label><br>
+                <input type="checkbox" id="art" name="art" value="category">
+                <label for="art"> Art</label><br>
+                <input type="checkbox" id="commercial" name="commercial" value="category">
+                <label for="commercial"> Commercial</label><br><br>
+            </span>
+        </div><br><br>
+
+
+
+        <div style="display: flex;gap:25px;">
+            &nbsp;  &nbsp;   &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;
+            &nbsp;  &nbsp;   &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;
+            &nbsp;  &nbsp;   &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;
+            &nbsp;  &nbsp;   &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  
+            <span>
+            <Address>Address</Address>
+        <input type="addres" id="address" name="address" placeholder="address">
+            </span>
+            <span></span>
+    </div>
+
+        
+            <input type="submit" name="submit"  value="Submit"  id="saveForm" />
+          
+
+    </form>
+    </fieldset>
+    
+</body>
+</html>
